@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Fuel Calculator",
+    "slug": "fuel-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B7A75"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fuelcalculator.developer"
+    },
+    "android": {
+      "package": "com.fuelcalculator.developer",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B7A75"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
